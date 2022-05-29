@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<ite>
+    <nombre>Instituto Tecnol󧩣o Edix</nombre>
+    <web>https://institutotecnologico.edix.com</web>
+    <empresa>Proeduca</empresa>
+    <telefono>+34 91 787 39 91</telefono>
+    <trabajadores>
+        tipo>
+            <profesor>
+                <id>1</id>
+                <nombre>Félix</nombre>
+            </profesor>
+            <profesor>
+                <id>2</id>
+                <nombre>Raúl</nombre>
+            </profesor>
+            <profesor>
+                <id>3</id>
+                <nombre>Raquel</nombre>
+            </profesor>
+            <profesor>
+                <id>4</id>
+                <nombre>Tomás</nombre>
+            </profesor>
+            <jefe_estudios>
+                <nombre>Dani</nombre>
+                <despacho>Numero 27, 2ª Planta, Edificio B</despacho>
+            </jefe_estudios>
+            <director>
+                <nombre>Chon</nombre>
+                <despacho>Numero 31, 3ª Planta, Edificio A</despacho>
+            </director>
+        </tipo>
+    </trabajadores>
+    <ciclos>
+        <ciclo>
+            <id>ASIR</id>
+            <nombre>Administración de Sistemas Informáticos en Red</nombre>
+            <tipo_formacion>Superior</tipo_formacion>
+            <añoDecreto>2009</añoDecreto>
+        </ciclo>
+        <ciclo>
+            <id>DAW</id>
+            <nombre>Desarrollo de Aplicaciones Web</nombre>
+            <tipo_formacion>Superior</tipo_formacion>
+            <añoDecreto>2010</añoDecreto>
+        </ciclo>
+        <ciclo>
+        <id>DAM</id>
+            <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+            <tipo_formacion>Superior</tipo_formacion>
+            <añoDecreto>2010</añoDecreto>
+        </ciclo>
+    </ciclos>
+</ite>
