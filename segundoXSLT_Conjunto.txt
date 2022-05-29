@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
 <ite>
-    <nombre>Instituto Tecnológico Edix</nombre>
-    <web>https://institutotecnologico.edix.com</web>
-    <empresa>Proeduca</empresa>
+    <nombre>Instituto Tecnológico Edix - Proeduca</nombre>
     <telefono>+34 91 787 39 91</telefono>
+    <web>https://institutotecnologico.edix.com</web>
     <trabajadores>
         <tipo>
             <profesor>
@@ -36,20 +35,26 @@
         <ciclo>
             <id>ASIR</id>
             <nombre>Administración de Sistemas Informáticos en Red</nombre>
-            <tipo_formacion>Superior</tipo_formacion>
-            <añoDecreto>2009</añoDecreto>
+            <formacion>Superior</formacion>
+            <decretoTitulo>
+                <año>2009</año>
+            </decretoTitulo>
         </ciclo>
         <ciclo>
             <id>DAW</id>
             <nombre>Desarrollo de Aplicaciones Web</nombre>
-            <tipo_formacion>Superior</tipo_formacion>
-            <añoDecreto>2010</añoDecreto>
+            <formacion>Superior</formacion>
+            <decretoTitulo>
+                <año>2010</año>
+            </decretoTitulo>
         </ciclo>
         <ciclo>
-        <id>DAM</id>
+            <id>DAM</id>
             <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
-            <tipo_formacion>Superior</tipo_formacion>
-            <añoDecreto>2010</añoDecreto>
+            <formacion>Superior</formacion>
+            <decretoTitulo>
+                <año>2010</año>
+            </decretoTitulo>
         </ciclo>
     </ciclos>
 </ite>

@@ -83,7 +83,7 @@
                                 <label for="sexo">Sexo: </label>
                                     <input id="sexo" class="check_bola" type="radio" name="sexo" value="H"/>Hombre
                                     <input class="check_bola" type="radio" name="sexo" value="M"/>Mujer<br/>	
-                                <label for="referente">Ciclo formativo:</label>
+                                <label for="referente">Curso:</label>
                                     <select id="referente" name="referente">
                                         <option value="1">Administración de Sistemas Informáticos en Red</option>
                                         <option value="2">Desarrollo de Aplicaciones Web</option>
@@ -91,7 +91,7 @@
                                     </select> <br/>                                  
                                 <label for="consulta">Consulta: </label>
                                     <textarea id="consulta" style="resize: none;" rows="5" cols="80" name="observaciones"></textarea><br/>
-                                <label for="terminos">¿Desea recibir información en su correo sobre nuestros cursos? </label>	
+                                <label for="terminos">¿Desea recibir información complementaria? </label>	
                                     <input id="terminos" type="checkbox" name="terminos" value="Y"/> Sí, quiero recibir información.   
                                     <input id="informacion" type="checkbox" name="informacion" value="N"/> No, no deseo recibir información. <br/>                
                             <input type="submit" value="Enviar"/>
