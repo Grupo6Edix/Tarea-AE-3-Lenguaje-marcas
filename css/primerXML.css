@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el header, con fondo de color y colocación */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    font-size: 20px;
+    background-color: #2F3C4F;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+/* Fondo del resto del main */
+
+main{
+    position: relative;
+    font-size: 20px;
+    background-color: #506F86;
+    padding: 180px 50px 50px 50px;
+}
+
+/* Estilos de la primera tabla */
+
+.docentes{
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    width: 500px;
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-bottom: 50px;
+}
+
+.docentes h3 {
+    border: solid 2px #2F3C4F;
+    border-radius: 5px;
+    background-color: #FBB040;
+    margin-bottom: 10px;
+}
+
+.docentes h4 {
+    border: solid 1px #2F3C4F;
+    border-radius: 5px;
+    background-color: #FBB040;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.docentes td{
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilos de la segunda tabla */
+
+.formacion{
+    position: relative;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    width: 800px;
+}
+
+.formacion h3 {
+    border: solid 2px #2F3C4F;
+    border-radius: 5px;
+    background-color: #FBB040;
+    margin-bottom: 10x;
+}
+
+/* Estilos del formulario */
+
+form{
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+form h3 {
+    text-align: center;
+    border: solid 2px #2F3C4F;
+    border-radius: 5px;
+    background-color: #FBB040;
+    margin-bottom: 15px;
+}
+
+form input, select, textarea {
+    border: solid 2px #FBB040;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+
+form textarea {
+    overflow-y: scroll;
+}
+
+form label {
+    display: block;
+}
+
+form img {
+    position: absolute;
+    top: 110px;
+    left: 850px;
+    padding-left: 20px;
+    border-left: 2px solid #506F86;
+}
+
+/* Estilos del pie de página */
+
+footer {
+    background-color: #FBB040;
+    padding: 5px 10px;
+    text-align: right;
+}
