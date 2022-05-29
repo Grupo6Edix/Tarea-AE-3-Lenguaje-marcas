@@ -7,7 +7,7 @@
             <!-- Seleccionamos el atributo nombre de la etiqueta "ite" para que aparezca el nombre
             del instituto en la pestaña del navegador -->
             <title> <xsl:value-of select="ite/@nombre"/> </title>
-            <link rel="stylesheet" href="css/primerXML.css"></link>
+            <link rel="stylesheet" href="css/primerXML_Jorge.css"></link>
         </head>
         <body>
             <!-- En el header incorporamos la etiqueta xsl "value-of" seleccionando con "@" el atributo
